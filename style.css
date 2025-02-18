@@ -82,6 +82,11 @@ nav {
     border-radius: 30px;
     border-color: black;
 }
+.bouton-ancre a{
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+}
 
 .bouton-ancre:hover {
     animation: rotate 1s forwards;
