@@ -122,12 +122,14 @@ main:hover {
 }
 
 .bouton-main {
-    width: 100px;
+    /*width: 100px;*/
     height: 50px;
     background-color: white;
     font-family: 'inter', sans-serif;
     margin-top: 20px;
     margin-left: 20px;
+    padding-right:25px;
+    padding-left:25px;
     border-radius: 30px;
     border-color: black;
     transition: transform 1s ease;
