@@ -354,7 +354,7 @@ footer {
     }
 
     .bouton-ancre {
-        width: 106px;
+        /*width: 106px;*/
         height: 45px;
         font-size: 15px;
         margin-right: 35px;
@@ -423,7 +423,7 @@ footer {
     }
 
     .bouton-ancre {
-        width: 106px;
+        /*width: 106px;*/
         height: 45px;
         font-size: 15px;
         margin-right: 20px;
@@ -581,7 +581,7 @@ footer {
     }
 
     .bouton-ancre {
-        width: 80%;
+        /*width: 80%;*/
         height: 40px;
         margin: 10px 0;
     }
