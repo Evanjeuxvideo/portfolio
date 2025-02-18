@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+</head>
+
+<body>
+    <header>
+
+        <a class="texte-header" href="index.html">Portfolio</a>
+
+        <input type="checkbox" id="navMenu" class="burger-menu-checkbox" aria-expanded="false" aria-controls="burgerMenu">
+
+        <label for="navMenu" class="burger-menu-label">
+            <div class="burger-menu" id="burgerMenu">
+                <div class="burger-bar"></div>
+                <div class="burger-bar"></div>
+                <div class="burger-bar"></div>
+            </div>
+        </label>
+
+        <nav aria-label="Navigation principale">
+
+            <button class="bouton-ancre">
+                <a href="#a-propos">À Propos</a>
+            </button>
+
+            <button class="bouton-ancre">
+                <a href="#mes-competance">Compétences</a>
+            </button>
+
+            <button class="bouton-ancre">
+                <a href="#mes-projets">Projets</a>
+            </button>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <div>
+            <h1 id="main-text-nom">
+                Evan Bret
+            </h1>
+
+            <h2 id="main-text-metier">
+                <strong>Developpeur Web Débutant</strong>
+            </h2>
+
+            <button class="bouton-main">
+                <a href="#mes-projets">Mes projets</a>
+            </button>
+
+            <button class="bouton-main">
+                <a href="#contact">Contact</a>
+            </button>
+        </div>
+    </main>
+
+    <section>
+
+        <div>
+            <h2 class="titre-h2" id="a-propos">
+                <b class="rainbow-text">à propos</b>
+            </h2>
+
+            <p class="texte-apropos">
+                Je m'appelle Evan Bret j'ai 21 ans. J'ai <strong>commencer a apprendre la programation en Mars
+                    2023.</strong><br>
+                <strong>je n'avais jamais codé avant</strong> et c'est lors d'un Stage que j'ai commencé la
+                programmation avec le HTML et
+                CSS.<br>
+                J'ai également fait une Formation de Developpeur Web et Web Mobile.
+            </p>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div>
+            <h2 class="titre-h2" id="mes-competance">
+                <b class="rainbow-text">Mes compétances</b>
+            </h2>
+
+            <div id="competance-images">
+
+                <img src="images/Logo-html.png" width="225px" height="225px" alt="Logo du HTMl">
+
+                <img src="images/Logo-css.png" width="189px" height="250px" alt="Logo du CSS">
+
+                <div class="competance-images-et-titre">
+                    <p>Bootstrap</p>
+                    <img src="images/Logo-bootstrap.jpg" width="200px" height="175px" alt="Logo de Bootstrap">
+                </div>
+
+                <img src="images/Logo-php.png" width="306px" height="165px" alt="Logo de Php">
+
+                <div class="competance-images-et-titre">
+                    <p>Laravel</p>
+                    <img src="images/Logo-laravel.png" width="200px" height="175px" alt="Logo de Laravel">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div>
+            <h2 class="titre-h2" id="mes-projets">
+                <b class="rainbow-text">Mes Projets</b>
+            </h2>
+
+            <div id="detail-projet">
+
+                <div class="projet">
+                    <h3>Le Retrogaming Nintendo</h3>
+
+                    <div class="image-container">
+                        <img src="images/Retro-Nintendo.png" alt="Image de la Page Principal" class="image-projet">
+                        <a href="retro-nintendo.html" class="btn-voir-plus">Voir plus</a>
+                    </div>
+                </div>
+
+                <div class="projet">
+                    <h3>ArcadiaGames</h3>
+
+                    <div class="image-container">
+                        <img src="images/ArcadiaGames.png" alt="Image de la Page Principal" class="image-projet">
+                        <a href="arcadia-games.html" class="btn-voir-plus">Voir plus</a>
+                    </div>
+                </div>
+
+                <div class="projet">
+                    <h3>Ticket Tool PA</h3>
+
+                    <div class="image-container">
+                        <img src="images/Ticket-Tool-PA.png" alt="Image de la Page Principal" class="image-projet">
+                        <a href="ticket-tool-pa.html" class="btn-voir-plus">Voir plus</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div>
+            <h2 class="titre-h2" id="contact">
+                <b class="rainbow-text">Contact</b>
+            </h2>
+
+            <p class="texte-contact">
+                Vous Pouvez Me Contacter a <b>l’Adresse Email Suivante :</b><br><br>
+                <a id="texte-contact-mail" href="mailto:evanbret.dev@gmail.com"><b>evanbret.dev@gmail.com</b></a>
+            </p>
+        </div>
+        
+    </section>
+
+    <footer>
+        <a class="texte-header" href="index.html">Portfolio</a>
+
+        <div id="container-texte-footer">
+            <p id="texte-footer">
+                Evan Bret ©Portfolio 2024
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
