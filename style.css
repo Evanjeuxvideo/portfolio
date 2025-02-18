@@ -375,7 +375,7 @@ footer {
     }
 
     .bouton-main {
-        width: 106px;
+        /*width: 106px;*/
         height: 45px;
         font-size: 15px;
     }
@@ -444,7 +444,7 @@ footer {
     }
 
     .bouton-main {
-        width: 106px;
+        /*width: 106px;*/
         height: 45px;
         font-size: 15px;
         margin-top: 30px;
@@ -601,7 +601,7 @@ footer {
     }
 
     .bouton-main {
-        width: 80px;
+        /*width: 80px;*/
         height: 35px;
         font-size: 12px;
         margin-top: 40px;
